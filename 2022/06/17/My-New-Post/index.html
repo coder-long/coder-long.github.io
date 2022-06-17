@@ -6,17 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>My New Post | Coder Long</title>
+  <title>aaa | Coder Long</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="article">
-<meta property="og:title" content="My New Post">
+  <meta name="description" content="文档 https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;docs&#x2F; 1.准备工作本地下载安装 nodejs 安装hexo-cli 1&amp; npm install -g hexo-cli  2.初始化本地新建一个文件夹Blob,终端输入下面命令，或者手动创建文件夹 1$ mkdir Blob 1$ hexo init Blob  初始化完成之后 1$ cd Blob 1$ npm install 1">
+<meta property="og:type" content="article">
+<meta property="og:title" content="aaa">
 <meta property="og:url" content="http://example.com/2022/06/17/My-New-Post/index.html">
 <meta property="og:site_name" content="Coder Long">
+<meta property="og:description" content="文档 https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;docs&#x2F; 1.准备工作本地下载安装 nodejs 安装hexo-cli 1&amp; npm install -g hexo-cli  2.初始化本地新建一个文件夹Blob,终端输入下面命令，或者手动创建文件夹 1$ mkdir Blob 1$ hexo init Blob  初始化完成之后 1$ cd Blob 1$ npm install 1">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/blob-img-source/aaa.png">
 <meta property="article:published_time" content="2022-06-17T03:40:55.000Z">
-<meta property="article:modified_time" content="2022-06-17T03:40:55.518Z">
+<meta property="article:modified_time" content="2022-06-17T07:25:03.752Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="Hexo建站">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/blob-img-source/aaa.png">
   
     <link rel="alternative" href="/atom.xml" title="Coder Long" type="application/atom+xml">
   
@@ -159,7 +164,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      My New Post
+      aaa
     </h1>
   
 
@@ -172,7 +177,141 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>文档 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p>
+<h2 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1.准备工作"></a>1.准备工作</h2><p>本地下载安装 <em><a target="_blank" rel="noopener" href="http://nodejs.cn/download/">nodejs</a></em></p>
+<p>安装hexo-cli</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp; npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-初始化"><a href="#2-初始化" class="headerlink" title="2.初始化"></a>2.初始化</h2><p>本地新建一个文件夹Blob,终端输入下面命令，或者手动创建文件夹</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir <span class="title class_">Blob</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init <span class="title class_">Blob</span></span><br></pre></td></tr></table></figure>
+
+<p>初始化完成之后</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cd <span class="title class_">Blob</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<p><img src="/blob-img-source/aaa.png" alt="Alt"></p>
+<p>访问<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a></p>
+<h2 id="3-hexo-常用命令"><a href="#3-hexo-常用命令" class="headerlink" title="3.hexo 常用命令"></a>3.hexo 常用命令</h2><table>
+<thead>
+<tr>
+<th>命令</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>hexo init [folder]</td>
+<td>初始化博客,将博客基本模块下载到本地folder下面</td>
+</tr>
+<tr>
+<td>hexo new [layout] [blob title]</td>
+<td>创建博客文章，layout指定使用布局，不指定则使用默认布局，blob title 博客文章标题</td>
+</tr>
+<tr>
+<td>hexo clean</td>
+<td>清理缓存文件（db.json）和生成的public</td>
+</tr>
+<tr>
+<td>hexo s 或 hexo server</td>
+<td>本地启动站点，访问localhost:4000</td>
+</tr>
+<tr>
+<td>hexo g 或 hexo generate</td>
+<td>生成部署前的站点</td>
+</tr>
+<tr>
+<td>hexo d 或 hexo devlop</td>
+<td>部署站点</td>
+</tr>
+<tr>
+<td>hexo d -g 或 hexo devlop -g</td>
+<td>部署站点前，先生成再部署</td>
+</tr>
+</tbody></table>
+<h2 id="4-站点配置"><a href="#4-站点配置" class="headerlink" title="4.站点配置"></a>4.站点配置</h2><p>配置文件 <code>_config.yml</code></p>
+<p><strong>基本配置：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>title</td>
+<td>网站标题</td>
+</tr>
+<tr>
+<td>subtitle</td>
+<td>网站副标题</td>
+</tr>
+<tr>
+<td>description</td>
+<td>网站描述</td>
+</tr>
+<tr>
+<td>keywords</td>
+<td>网站的关键词。支持多个关键词。</td>
+</tr>
+<tr>
+<td>author</td>
+<td>您的名字</td>
+</tr>
+<tr>
+<td>language</td>
+<td>网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置，常见的有 zh-Hans和 zh-CN。</td>
+</tr>
+<tr>
+<td>timezone</td>
+<td>网站时区。Hexo 默认使用您电脑的时区。请参考 时区列表 进行设置，如 America&#x2F;New_York, Japan, 和 UTC 。一般的，对于中国大陆地区可以使用 Asia&#x2F;Shanghai。</td>
+</tr>
+</tbody></table>
+<p><strong>部署配置：</strong><br>介绍部署导github:远程创建好仓库，不知道的可以看看<a target="_blank" rel="noopener" href="https://docs.github.com/cn/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll">使用 Jekyll 创建 GitHub Pages 站点</a><br>安装</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<p>修改配置文件</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment"># https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io</span></span><br><span class="line">  <span class="attr">branch:</span> [<span class="string">branch</span>]</span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>描述</th>
+<th>默认值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>repo</td>
+<td>github仓库地址(上面新建的带.io的仓库)</td>
+<td></td>
+</tr>
+<tr>
+<td>branch</td>
+<td>分支名称</td>
+<td>默认master</td>
+</tr>
+<tr>
+<td>message</td>
+<td>部署的时候的提交信息</td>
+<td>默认是站点更新日期：’YYYY-MM-DD HH:mm:ss’</td>
+</tr>
+<tr>
+<td>token</td>
+<td>令牌</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>最后执行部署</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+
+<p>访问站点(一般要等上几分钟才会出现内容)<br>yourname.github.io</p>
+<h2 id="5-主题更换"><a href="#5-主题更换" class="headerlink" title="5.主题更换"></a>5.主题更换</h2><p>下载安装主题<br>这里使用一款简约的主题<a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia">yilia</a><br>将主题clone到themes文件夹下面</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone <span class="attr">https</span>:<span class="comment">//github.com/litten/hexo-theme-yilia.git themes/yilia</span></span><br></pre></td></tr></table></figure>
+<p><code>_config.yml</code>更改配置（默认是landscape）</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Plugins: https://hexo.io/plugins/</span></span><br><span class="line"><span class="comment">## Themes: https://hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">yilia</span></span><br></pre></td></tr></table></figure>
+<p>本地查看</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<p>远程部署</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+
       
 
       
@@ -201,6 +340,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Hexo建站</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -391,6 +541,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Hexo建站</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
