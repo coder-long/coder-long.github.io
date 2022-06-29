@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3489927 */
+  src: url('iconfont.woff2?t=1656470359088') format('woff2'),
+       url('iconfont.woff?t=1656470359088') format('woff'),
+       url('iconfont.ttf?t=1656470359088') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-guanyu:before {
+  content: "\e60b";
+}
+
+.icon-jurassic_message:before {
+  content: "\e69d";
+}
+
