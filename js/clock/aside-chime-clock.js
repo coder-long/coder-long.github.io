@@ -6,6 +6,8 @@
     hours = document.getElementById('hour_time'),
     s, m, h, S, M, H, time;
 
+  if (!seconds || !munutes || !hours) return;
+
   /*[set the clock to correct time and let CSS handle the rest]*/
   function windup() {
     time = new Date(),
