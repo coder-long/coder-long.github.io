@@ -1,0 +1,32 @@
+/* 侧边蓝小卡片样式 */
+
+.social-icon {
+  .iconfont.icon-csdn {
+    color: red;
+    font-size: 25px;
+  }
+}
+
+#aside-content > .card-widget.weather {
+  padding: 0;
+  user-select: none;
+
+  .wv-lt-location {
+    pointer-events: none;
+
+    a {
+      display: none;
+    }
+  }
+
+  .wv-lt-refresh {
+    a {
+      display: none;
+    }
+  }
+
+  #he-plugin-standard {
+    line-height: 1;
+    padding-top: 10px;
+  }
+}
