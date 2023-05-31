@@ -184,6 +184,8 @@
 #aside-content > .card-widget.weather #he-plugin-standard {
   line-height: 1;
   padding-top: 10px;
+  width: 100% !important;
+  background-size: cover !important;
 }
 
 /* 修改主题内部样式 */
