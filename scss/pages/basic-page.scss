@@ -1,0 +1,84 @@
+$bg-opcity: rgba(255, 255, 255, 0.8);
+
+:root {
+  --global-font-family: '思源宋体 Regular';
+}
+
+.hide {
+  display: none !important;
+}
+
+#web_bg {
+  // background: linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+  transition: all 0.5s;
+}
+
+#footer {
+  background-color: $bg-opcity;
+}
+
+/* 主页所有文章页面背景 */
+#aside_content .card-widget,
+#recent-posts > .recent-post-item,
+.layout_page > div:first-child:not(.recent-posts),
+.layout_post > #page,
+.layout_post > #post,
+.read-mode .layout_post > #post {
+  background-color: $bg-opcity;
+}
+
+/*侧边栏页面*/
+#aside-content {
+  > .card-widget {
+    background-color: $bg-opcity;
+  }
+
+  > .sticky_layout > .card-widget {
+    background-color: $bg-opcity;
+  }
+}
+
+.layout {
+  /*文章页面*/
+  > #post {
+    background-color: $bg-opcity;
+  }
+
+  /*分类页面*/
+  > #page {
+    background: $bg-opcity;
+  }
+
+  /*时间轴页面*/
+  > #archive {
+    background: $bg-opcity;
+  }
+}
+
+#loading-box {
+  position: relative;
+  z-index: 1000000;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#article-container {
+  h1:before,
+  h2:before,
+  h3:before,
+  h4:before,
+  h5:before,
+  h6:before {
+    font-family: 'iconfont' !important;
+    content: '\e6e0' !important;
+    animation: spin 3s linear infinite;
+    margin-top: -2px;
+  }
+}
